@@ -1,0 +1,58 @@
+---
+layout: post
+title:  "Leetcode-01 two sum"
+date:   2017-10-30 20:40:22 +0800
+categories: leetcode
+---
+***
+# Two Sum
+Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+
+Example:
+
+Given nums = [2, 7, 11, 15], target = 9,
+
+Because nums[0] + nums[1] = 2 + 7 = 9,
+
+return [0, 1].
+
+***
+<br>
+
+* 解决思路一：
+4选2的组合，判断每一个组合中的数相加是否等于目标值
+
+{% highlight ruby %}
+def two_sum(nums, target)
+    limit = nums.length-1
+    0.upto limit do |first_index|
+        (first_index+1).upto limit do |second_index|
+            return [first_index, second_index] if target === nums[first_index] + nums[second_index]
+        end
+    end
+end
+{% endhighlight %}
+
+由于最坏情况是全组合，所以非常耗时。
+
+* 解决思路二：
+利用Hash
+
+首先将Array转换为Hash，其中Array的index为Hash的key，Array的value为Hash的value。
+
+然后遍历Hash，待查找的search的值为目标值减去当前value。
+
+最后判断Hash中是否包含值为search的项，如果包含(且该项的key不等于当前key)，则找到了。
+
+{% highlight ruby %}
+def two_sum(nums, target)
+    hash_nums = Hash[(0...nums.size).zip nums]
+    hash_nums.each do |index, value|
+        return [index, hash_nums.key(target-value)] if hash_nums.has_value?(target-value) && index != hash_nums.key(target-value)
+end
+{% endhighlight %}
+
+(这个思路是其他人给出的，能解决问题，但我用的Ruby的实现排名较低)
+
