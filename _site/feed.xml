@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://badtudou.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://badtudou.github.io/" rel="alternate" type="text/html" /><updated>2018-04-25T19:51:06+08:00</updated><id>http://badtudou.github.io/</id><title type="html">杜小豆的编程小道</title><subtitle>Answer to the Ultimate Question of Life, The Universe, and Everything.</subtitle><entry><title type="html">Sublime Text 3 guide</title><link href="http://badtudou.github.io/sublime/text/3/2018/04/24/sublime-text-3-guide.html" rel="alternate" type="text/html" title="Sublime Text 3 guide" /><published>2018-04-24T18:05:25+08:00</published><updated>2018-04-24T18:05:25+08:00</updated><id>http://badtudou.github.io/sublime/text/3/2018/04/24/sublime-text-3-guide</id><content type="html" xml:base="http://badtudou.github.io/sublime/text/3/2018/04/24/sublime-text-3-guide.html">&lt;hr /&gt;
+&lt;h1 id=&quot;按键符号&quot;&gt;按键符号&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Command &lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Shift &lt;code class=&quot;highlighter-rouge&quot;&gt;⇧&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Option &lt;code class=&quot;highlighter-rouge&quot;&gt;⌥&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Control &lt;code class=&quot;highlighter-rouge&quot;&gt;⌃&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Caps Lock &lt;code class=&quot;highlighter-rouge&quot;&gt;⇪&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Fn&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;选择&quot;&gt;选择&lt;/h1&gt;
+&lt;h2 id=&quot;列选择&quot;&gt;列选择&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;鼠标
+    &lt;ul&gt;
+      &lt;li&gt;添加：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;取消：&lt;code class=&quot;highlighter-rouge&quot;&gt;⇧&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;键盘
+ 	- 添加：&lt;code class=&quot;highlighter-rouge&quot;&gt;^&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⇧&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;Up/Down&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;行选择&quot;&gt;行选择&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;L&lt;/code&gt; (line)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;多选&quot;&gt;多选&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;多选：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;^&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;Left&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;撤销选择: &lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;U&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;选择块的多行：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⇧&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;L&lt;/code&gt; (line)&lt;/li&gt;
+  &lt;li&gt;选择下一个词：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;D&lt;/code&gt; (down)&lt;/li&gt;
+  &lt;li&gt;跳过下一个词:&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;K&lt;/code&gt;，&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;D&lt;/code&gt; (skip)&lt;/li&gt;
+  &lt;li&gt;选择全部：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌃&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;G&lt;/code&gt; (global)&lt;/li&gt;
+  &lt;li&gt;取消多选：&lt;code class=&quot;highlighter-rouge&quot;&gt;Esc&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;选择当前位置到开头：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⇧&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;Up&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;选择当前位置到末尾：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⇧&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;Down&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;自动填充&quot;&gt;自动填充&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;切换填充项：&lt;code class=&quot;highlighter-rouge&quot;&gt;^&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;Space&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Tab填充：&lt;code class=&quot;highlighter-rouge&quot;&gt;Tab&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;插入Tab：&lt;code class=&quot;highlighter-rouge&quot;&gt;⇧&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;Tab&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;其他选择&quot;&gt;其他选择&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;选择词：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌥&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⇧&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;方向键&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;选择括号：&lt;code class=&quot;highlighter-rouge&quot;&gt;^&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⇧&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;M&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;将选择扩大到缩进：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⇧&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;J&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;扩大选择范围：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⇧&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;交换&quot;&gt;交换&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;交换两个字母：&lt;code class=&quot;highlighter-rouge&quot;&gt;^&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;T&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;交换行：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;^&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;Up/Down&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;搜索与替换&quot;&gt;搜索与替换&lt;/h1&gt;
+&lt;h2 id=&quot;搜索&quot;&gt;搜索&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;单文件搜索：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;F&lt;/code&gt; (find)&lt;/li&gt;
+  &lt;li&gt;查找下一个：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;G&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;查找上一个：&lt;code class=&quot;highlighter-rouge&quot;&gt;⇧&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;Enter&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;查找全部： &lt;code class=&quot;highlighter-rouge&quot;&gt;⌥&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;Enter&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;切换正则表达式：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⌥&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;R&lt;/code&gt; (regular)&lt;/li&gt;
+  &lt;li&gt;切换大小写敏感：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⌥&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;C&lt;/code&gt; (case)&lt;/li&gt;
+  &lt;li&gt;切换完全匹配：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⌥&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;W&lt;/code&gt; (whole)&lt;/li&gt;
+  &lt;li&gt;单次搜索：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;I&lt;/code&gt; (incremental)&lt;/li&gt;
+  &lt;li&gt;快速搜索：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⌥&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;G&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;快速搜索全部：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;^&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;G&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;使用选择作为搜索：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;E&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Show content：显示内容&lt;/p&gt;
+
+&lt;p&gt;Use buffer：搜索结果在新Tab打开&lt;/p&gt;
+
+&lt;h2 id=&quot;替换&quot;&gt;替换&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;打开替换面板：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⌥&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;F&lt;/code&gt; (find)&lt;/li&gt;
+  &lt;li&gt;替换下一个：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⌥&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;E&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;替换全部：&lt;code class=&quot;highlighter-rouge&quot;&gt;^&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⌥&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;Enter&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;使用选择作为替换：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⇧&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;E&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;跳转&quot;&gt;跳转&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;跳转到文件：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;P&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;跳转到函数：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;R&lt;/code&gt;，&lt;code class=&quot;highlighter-rouge&quot;&gt;@&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;跳转到当前工程的函数：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;R&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;跳转到定义：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⌥&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;Down&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;跳转到行： &lt;code class=&quot;highlighter-rouge&quot;&gt;^&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;G&lt;/code&gt;，&lt;code class=&quot;highlighter-rouge&quot;&gt;:&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;跳转到单词：&lt;code class=&quot;highlighter-rouge&quot;&gt;#&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;跳转到开头：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;Up&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;跳转到首行：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;Down&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;跳转到行首：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;Left&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;跳转到行末：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;Right&lt;/code&gt;sss&lt;/li&gt;
+  &lt;li&gt;向后跳转：&lt;code class=&quot;highlighter-rouge&quot;&gt;^&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;-&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;向前跳转：&lt;code class=&quot;highlighter-rouge&quot;&gt;^&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⇧&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;-&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;跳转到块：&lt;code class=&quot;highlighter-rouge&quot;&gt;^&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;M&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;滚动&quot;&gt;滚动&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;滚动到选择：&lt;code class=&quot;highlighter-rouge&quot;&gt;^&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;L&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;命令面板&quot;&gt;命令面板&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;打开命令面板：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⇧&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;P&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;界面&quot;&gt;界面&lt;/h1&gt;
+&lt;h2 id=&quot;布局&quot;&gt;布局&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;设置N个列：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⌥&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;Number&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;设置N个行：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⌥&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⇧&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;Number&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;网格：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⌥&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;5&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;组&quot;&gt;组&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;组是布局的集合&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;分组：多个窗格的集合&lt;/li&gt;
+  &lt;li&gt;新分组：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;K&lt;/code&gt;，&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⇧&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;Up&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;移动文件到新分组：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;K&lt;/code&gt;，&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;Up&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;关闭分组：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;K&lt;/code&gt;，&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;Down&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;上一个分组：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;K&lt;/code&gt;，&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;Left&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;下一个分组：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;K&lt;/code&gt;，&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;Right&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;移动文件到上一个分组：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;K&lt;/code&gt;，&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⇧&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;Left&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;移动文件到下一个分组：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;K&lt;/code&gt;，&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⇧&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;Right&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;窗格&quot;&gt;窗格&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;跳转到第N个窗格：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;Number&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;全屏&quot;&gt;全屏&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;进入全屏：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;^&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;F&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;进入无干扰全屏：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;^&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⇧&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;侧边栏&quot;&gt;侧边栏&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;显示/隐藏侧边栏：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;K&lt;/code&gt;，&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;B&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;编辑&quot;&gt;编辑&lt;/h1&gt;
+&lt;h2 id=&quot;行&quot;&gt;行&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;复制行：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⇧&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;D&lt;/code&gt; (duplicate)&lt;/li&gt;
+  &lt;li&gt;删除行：&lt;code class=&quot;highlighter-rouge&quot;&gt;^&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⇧&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;K&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;合并行：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;J&lt;/code&gt; (join)&lt;/li&gt;
+  &lt;li&gt;添加缩进：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;]&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;删除缩进：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;[&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;删除当前到行首：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;Delete&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;删除当前到行末：&lt;code class=&quot;highlighter-rouge&quot;&gt;^&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;K&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;注释&quot;&gt;注释&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;添加/取消注释：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;/&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;代码折叠&quot;&gt;代码折叠&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;全部折叠：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⌥&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;[&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;全部展开：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⌥&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;]&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;折叠N层：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;K&lt;/code&gt;，&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;Number&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;折叠标签属性：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;K&lt;/code&gt;，&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;T&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;大小写转换&quot;&gt;大小写转换&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;转换为大写：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;K&lt;/code&gt;，&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;U&lt;/code&gt; (upper)&lt;/li&gt;
+  &lt;li&gt;转换为小写：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;K&lt;/code&gt;，&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;L&lt;/code&gt; (lower)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;换行&quot;&gt;换行&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;段折叠：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⌥&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;Q&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;排序&quot;&gt;排序&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;行排序：&lt;code class=&quot;highlighter-rouge&quot;&gt;Fn&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;F5&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;行排序(大小写敏感)：&lt;code class=&quot;highlighter-rouge&quot;&gt;Fn&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;^&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;F5&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;emoji与符号&quot;&gt;Emoji与符号&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;^&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;Spa&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;标记&quot;&gt;标记&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;标记用于在当前编辑窗口的2个位置快速切换&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;切换标记：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;K&lt;/code&gt;，&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;X&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;删除到标记：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;K&lt;/code&gt;，&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;W&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;清除标记：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;K&lt;/code&gt;，&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;G&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;设置标记：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;K&lt;/code&gt;，&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;Space&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;选择到标记：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;K&lt;/code&gt;，&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;A&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;书签&quot;&gt;书签&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;书签用于在当前编辑窗口的多个位置快速切换&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;添加/清除书签：&lt;code class=&quot;highlighter-rouge&quot;&gt;^&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⇧&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;R&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;下一个书签：&lt;code class=&quot;highlighter-rouge&quot;&gt;^&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;R&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;上一个书签：&lt;code class=&quot;highlighter-rouge&quot;&gt;Fn&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;F2&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;清除所有书签：&lt;code class=&quot;highlighter-rouge&quot;&gt;Fn&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⇧&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;F2&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;宏&quot;&gt;宏&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;宏指一系列操作的集合&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;录制宏：&lt;code class=&quot;highlighter-rouge&quot;&gt;^&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;Q&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;播放宏：&lt;code class=&quot;highlighter-rouge&quot;&gt;^&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⇧&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;Q&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;编译&quot;&gt;编译&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;编译：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;B&lt;/code&gt; (build)&lt;/li&gt;
+  &lt;li&gt;编译于：&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;⇧&lt;/code&gt;+&lt;code class=&quot;highlighter-rouge&quot;&gt;B&lt;/code&gt; (build)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;工程&quot;&gt;工程&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;工程是不同文件夹与文件的集合&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;工作区&quot;&gt;工作区&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;工作区保存了当前Sublime Text的状态&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">按键符号 Command ⌘ Shift ⇧ Option ⌥ Control ⌃ Caps Lock ⇪ Fn</summary></entry></feed>
