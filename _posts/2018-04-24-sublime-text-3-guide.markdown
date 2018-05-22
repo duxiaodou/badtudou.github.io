@@ -2,6 +2,7 @@
 layout: post
 title: "Sublime Text 3 guide"
 date:   2018-04-24 18:05:25 +0800
+comments: true
 categories: "Sublime Text 3"
 ---
 ***

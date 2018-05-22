@@ -2,9 +2,9 @@
 title: Regex guide
 layout: post
 date:   2018-04-25 20:05:25 +0800
+comments: true
 categories: "Regex"
 ---
-123456789-0129&*^$$
 
 # 字符集
 
@@ -37,6 +37,7 @@ categories: "Regex"
 |`()\n`|第n个部分的|
 
 # 标志
+
 |符号|作用|
 |--|--|
 |`i`|忽略大小写|
@@ -60,7 +61,3 @@ categories: "Regex"
 |`?!`|前置约束-排除|
 |`?<=`|后置约束-存在|
 |`?<!`|后置约束-排除|
-
-$1212123
-$1adfsdf
-(?<=\$)[0-9\.]*
